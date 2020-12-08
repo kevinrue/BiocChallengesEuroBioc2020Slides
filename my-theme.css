@@ -22,9 +22,9 @@ div.my-header {
 div.my-header img {
     margin-top: 3px;
     margin-right: 3px;
-    border-color: #00758a;
+    border-color: #0092ac;
     border-width: thin;
-    border-style: solid;
+    border-style: none;
 }
 
 div.my-footer {
