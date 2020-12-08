@@ -1,0 +1,67 @@
+---
+title: 'My Bioconductor Topic'
+subtitle: 'Bioconductor Meeting YEAR'
+author: '[Author One](https://author1.github.io), [Author Two](https://author2.github.io)'
+institute: ''
+date: 'YYYY-MM-DD (updated: `r Sys.Date()`)'
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, rladies-fonts, "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+layout: true
+
+<div class="my-header"><img src="img/sticker.png" alt="logo" align="right" height="90%"></div>
+
+<div class="my-footer"><span>
+Footer left
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+Footer middle
+</span></div>
+
+```{r setup, include=FALSE}
+stopifnot(require(htmltools))
+stopifnot(require(RefManageR))
+stopifnot(require(knitr))
+```
+
+```{r htmltools, include=FALSE}
+stopifnot(requireNamespace("htmltools"))
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+options(htmltools.dir.version = FALSE)
+BibOptions(
+  check.entries = FALSE,
+  bib.style = "authoryear",
+  cite.style = "authoryear",
+  max.names = 2,
+  style = "markdown",
+  hyperlink = "to.doc",
+  dashed = TRUE)
+bib <- ReadBib("references.bib")
+```
+
+`r NoCite(bib, "orchestrating2015")`
+
+---
+
+# Title
+
+Content.
+
+---
+
+# References
+
+```{r refs, include=TRUE, echo=FALSE, results="asis"}
+PrintBibliography(bib)
+```
