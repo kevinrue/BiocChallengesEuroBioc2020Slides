@@ -1,9 +1,9 @@
 ---
-title: 'My Bioconductor Topic'
-subtitle: 'Bioconductor Meeting YEAR'
-author: '[Author One](https://author1.github.io), [Author Two](https://author2.github.io)'
+title: 'Challenges from and for the Bioconductor community <img src="img/sticker.png" height="150px">'
+subtitle: 'European Bioconductor Meeting 2020'
+author: '[Kevin Rue-Albrecht](https://kevinrue.github.io), [Charlotte Soneson](https://csoneson.github.io), [Laurent Gatto](https://lgatto.github.io), et [EuroBioc2020 Organising Committee](https://eurobioc2020.bioconductor.org/organizing_committee)'
 institute: ''
-date: 'YYYY-MM-DD (updated: `r Sys.Date()`)'
+date: '2020-12-14 (updated: `r Sys.Date()`)'
 output:
   xaringan::moon_reader:
     css: [default, metropolis, rladies-fonts, "my-theme.css"]
