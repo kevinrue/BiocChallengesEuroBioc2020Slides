@@ -18,7 +18,8 @@ Suggests:
     knitr,
     RefManageR,
     viridis,
-    xaringan
+    xaringan,
+    bibtex
 Remotes:
     ROpenSci/bibtex
 

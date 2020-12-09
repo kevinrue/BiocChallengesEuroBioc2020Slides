@@ -102,6 +102,18 @@
       "Repository": "CRAN",
       "Hash": "543776ae6848fde2f48ff3816d0628bc"
     },
+    "bibtex": {
+      "Package": "bibtex",
+      "Version": "0.4.3",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "ROpenSci",
+      "RemoteRepo": "bibtex",
+      "RemoteRef": "master",
+      "RemoteSha": "7ccf8eae7e2c6c3e1138662da12d30660fdd7bab",
+      "Hash": "057fceb3724e3e69a5c1afdc599ba631"
+    },
     "bookdown": {
       "Package": "bookdown",
       "Version": "0.21",

@@ -96,7 +96,7 @@ See the initial README at <https://github.com/iSEE/iSEE/tree/021e3e2>
 - Exposure to other perspectives<br/>
   (e.g., setup, workflow).
 
-- Share6 skills and best practices<br/>
+- Share transferable skills and best practices<br/>
   (e.g., git, unit testing, CI/CD).
 ]
 
@@ -230,6 +230,22 @@ knitr::include_graphics("img/minion-taking-notes.jpg")
 ```{r echo=FALSE, fig.align='center'}
 knitr::include_graphics("img/minions-lets-go.jpg")
 ```
+]
+
+---
+
+# At the end of this week
+
+.x-large-p[
+.center[
+**Friday 19:05 - 19:15 (CET)**
+
+**BiocChallenges closing presentation**
+]
+
+<br/>
+
+Notify me throughout the week, so that I can report new challenges, ideas, and contributions!
 ]
 
 ---
