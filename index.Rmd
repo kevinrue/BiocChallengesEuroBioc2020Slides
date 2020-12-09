@@ -21,15 +21,16 @@ layout: true
 <div class="my-header"><img src="img/sticker.png" alt="logo" align="right" height="90%"></div>
 
 <div class="my-footer"><span>
-Footer left
+Kevin Rue-Albrecht
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-Footer middle
+BiocChallenges
 </span></div>
 
 ```{r setup, include=FALSE}
 stopifnot(require(htmltools))
 stopifnot(require(RefManageR))
 stopifnot(require(knitr))
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r htmltools, include=FALSE}
@@ -54,9 +55,11 @@ bib <- ReadBib("references.bib")
 
 ---
 
-# Title
+# Community support
 
-Content.
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("img/minions2.jpg")
+```
 
 ---
 
