@@ -19,3 +19,6 @@ Suggests:
     RefManageR,
     viridis,
     xaringan
+Remotes:
+    ROpenSci/bibtex
+

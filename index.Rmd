@@ -96,17 +96,85 @@ See the initial README at <https://github.com/iSEE/iSEE/tree/021e3e2>
 - Exposure to other perspectives<br/>
   (e.g., setup, workflow).
 
-- Share transferable best practices<br/>
+- Share6 skills and best practices<br/>
   (e.g., git, unit testing, CI/CD).
-
-- Gain experience with external collaborators.
 ]
 
 .pull-right[
-```{r echo=FALSE, fig.align='top'}
+```{r echo=FALSE, fig.align='center'}
 knitr::include_graphics("img/minions-teamwork.png")
 ```
 ]
+
+- Gain experience with external collaborators.
+
+- Share the challenges and rewards of trying and working out an exciting idea together!
+
+- Connect with like-minded community members at all career stages.
+
+---
+
+# What BiocChallenges is
+
+.x-large-li[
+- A public platform for the Bioconductor community to announce and contribute to bite-sized projects beneficial to the community at all levels.
+
+- An R package (passes `BiocCheck`!)
+
+- Each vignette (under `vignettes/challenges`) represents a challenge.
+
+- Anyone can submit a new challenge (as a pull request).
+
+- Repositories contributing _to_ the challenges are listed on the challenge page.
+
+- Each challenge is led by one or more volunteer (point of contact).
+
+- Ideally, challenges and contributions will lead to presentations, discussions, or workshops at Bioconductor events.
+]
+
+---
+
+# What BiocChallenges is _not_
+
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("img/despicable-me-2-poster-header.jpg")
+```
+
+---
+
+# A tour of BiocChallenges
+
+.center[
+<https://github.com/kevinrue/BiocChallenges>
+]
+
+```{r echo=FALSE, fig.align='center', out.height='450px', out.width='700px'}
+knitr::include_graphics("img/biocchallenges-readme.png")
+```
+
+---
+
+# A tour of BiocChallenges
+
+.center[
+<https://github.com/kevinrue/BiocChallenges>
+]
+
+```{r echo=FALSE, fig.align='center', out.height='450px', out.width='700px'}
+knitr::include_graphics("img/biocchallenges-challenges.png")
+```
+
+---
+
+# A tour of BiocChallenges
+
+.center[
+<https://github.com/kevinrue/BiocChallenges>
+]
+
+```{r echo=FALSE, fig.align='center', out.height='450px', out.width='700px'}
+knitr::include_graphics("img/biocchallenges-challenge-example.png")
+```
 
 ---
 
@@ -114,11 +182,13 @@ knitr::include_graphics("img/minions-teamwork.png")
 
 .x-large-p[
 .pull-left[
-- Your feedback is welcome
+- Your feedback is welcome.
 
-  + Current format
+  + Challenge format.
   
-  + Additional information for each challenge
+  + Additional information for each challenge.
+  
+  + Additional functionality.
 ]
 ]
 
@@ -131,7 +201,7 @@ knitr::include_graphics("img/minion-taking-notes.jpg")
 
 ---
 
-# What can you do this week?
+# What can you do this week? (and beyond!)
 
 .pull-left[
 ## Ideas
@@ -168,4 +238,8 @@ knitr::include_graphics("img/minions-lets-go.jpg")
 
 ```{r refs, include=TRUE, echo=FALSE, results="asis"}
 PrintBibliography(bib)
+```
+
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("img/minions-job-done.jpg")
 ```
