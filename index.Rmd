@@ -13,7 +13,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 layout: true
@@ -195,7 +195,7 @@ knitr::include_graphics("img/biocchallenges-challenge-example.png")
 ]
 
 .pull-right[
-```{r echo=FALSE, fig.align='center', out.height='100%'}
+```{r echo=FALSE, fig.align='center', out.height='550px'}
 knitr::include_graphics("img/minion-taking-notes.jpg")
 ```
 ]
